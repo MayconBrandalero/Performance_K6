@@ -1,0 +1,12 @@
+Para adicionar o K6 Cloud:
+
+k6 cloud login --token {token}
+
+E para rodar o K6 na cloud:
+
+K6 cloud run {nome do arquivo}
+
+____
+
+Para pedir para rodar com o login e a senha (__ENV):
+k6 run ex01.js -e USUARIOLOGIN="cgts" -e USUARIOSENHA="123456"
